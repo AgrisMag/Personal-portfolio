@@ -55,8 +55,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh;
-    margin: 0;
+    flex-direction: column;
+    height: 80vh;
+    margin: 20px 20px;
+    background-color: #272643;
+    opacity: 0.8;
+    color: #ffffff;
 }
 
 .main-heading {
@@ -67,6 +71,14 @@ header {
 
 .work {
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work h2 {
+    color: #ffffff;
 }
 
 .work div {
