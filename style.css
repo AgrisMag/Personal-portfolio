@@ -76,14 +76,12 @@ header {
     align-items: center;
 }
 
-.work h2 {
+h2 {
+    text-align: center;
     color: #ffffff;
 }
 
 .work div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 20px 20px;
 }
 
@@ -93,8 +91,8 @@ header {
 }
 
 .work div div {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    flex-direction: row;
     padding: 5px;
     background-color: #ffffff;
 }
